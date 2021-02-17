@@ -3,8 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Roboto,' sans-serif;
     font-size: 16px; 
     color:white
 }
+
+h1,
+h2,
+h3, {
+    font-weight:500;
+}
+
+.conatiner {
+    width:1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+ .float-left {
+     float: left;
+ }
