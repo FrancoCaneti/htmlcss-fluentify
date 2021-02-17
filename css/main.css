@@ -92,7 +92,7 @@ h3{
  .bottone-verde {
     background-color: #7cbb01;
     border-color: #7cbb01;   
-}
+ }
 
      /*Hero*/
  .hero {
@@ -108,12 +108,18 @@ h3{
      position: relative;
      height: 100%;
  }
-}
 
- .hero .text {
-     position:absolute;
-     left:0;
-     top: 30%;
-     transform: translateY(50%);
-     
- }
+ .hero  .text {
+      position: absolute;
+      left: 0px;
+      top: 90px;
+      font-size: 40px;
+  }
+
+  .hero .text h1{
+      margin-bottom: 10px;
+      font-size: 40px;
+      color:white;
+      
+      
+  }
