@@ -49,9 +49,18 @@ h3{
 }
 
 
+.menu-inline li{
+    display:inline-block;
+    list-style: none;
+    margin-right: 0;
+}
+.menu-inline li:last-child {
+    margin-right: 0;
+}
+
 .main-header .navigazione-centrale {
     width: 45%;
-    background-color: tomato;
+    background-color: #0d325a;
 }
 
 .main-header .navigazione-destra {
