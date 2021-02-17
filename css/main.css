@@ -73,6 +73,24 @@ h3{
     text-decoration:none ;
     color: white;
     vertical-align:middle;
-    margin-right: 10px;
-    
+    margin-right: 10px;  
+}
+
+
+.bottone {
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px;
+    text-decoration:none;
+    text-transform:uppercase;
+    text-align:center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5%;
+    line-height: 1;
+}
+
+ .bottone-verde {
+    background-color: #7cbb01;
+    border-color: #7cbb01 ;
 }
