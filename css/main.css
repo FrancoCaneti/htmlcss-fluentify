@@ -27,6 +27,10 @@ h3, {
     clear: both;
 }
 
- .float-left {
+ .float-left{
      float: left
+ }
+
+ .main-header {
+     background-color: blue ;
  }
