@@ -36,9 +36,8 @@ h3{
     font-size: 12px;
     background-color: #0d325a;
     line-height: 50px;
-
 }
- 
+  
 
 .main-header .logo {
     width: 15%;
@@ -92,5 +91,31 @@ h3{
 
  .bottone-verde {
     background-color: #7cbb01;
-    border-color: #7cbb01 ;
+    border-color: #7cbb01;   
 }
+
+     /*Main*/
+
+     /*Hero*/
+ .hero {
+     height: 480px;
+     background-color:#0d325a ;
+     background-image: url(../img/background-header.png);
+     background-size: 1000px;
+     background-repeat: no-repeat;
+     background-position: 125% 110%;
+ }    
+
+ .hero .container {
+     position: relative;
+     height: 100%;
+ }
+}
+
+ .hero .text {
+     position:absolute;
+     left:0;
+     top: 30%;
+     transform: translateY(50%);
+     
+ }
