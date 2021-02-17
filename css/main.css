@@ -35,7 +35,8 @@ h3{
     text-transform: uppercase;
     font-size: 12px;
     background-color: #0d325a;
-    line-height: 32px;
+    line-height: 50px;
+
 }
  
 
@@ -44,7 +45,7 @@ h3{
     background-color: #0d325a; 
 }
 
-.main-header .logo{
+.main-header .logo {
     vertical-align: middle;
 }
 
@@ -52,7 +53,7 @@ h3{
 .menu-inline li{
     display:inline-block;
     list-style: none;
-    margin-right: 0;
+    margin-right: 10;
 }
 .menu-inline li:last-child {
     margin-right: 0;
@@ -65,5 +66,13 @@ h3{
 
 .main-header .navigazione-destra {
     width: 40%;
-    background-color: tomato;
+    
+}
+
+.main-header a{
+    text-decoration:none ;
+    color: white;
+    vertical-align:middle;
+    margin-right: 10px;
+    
 }
