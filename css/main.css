@@ -16,17 +16,17 @@ h3, {
     font-weight:500;
 }
 
-.conatiner {
+.container {
     width:1200px;
     margin: 0 auto;
 }
 
 .clearfix::after {
-    content:'';
+    content: '';
     display: table;
     clear: both;
 }
 
  .float-left {
-     float: left;
+     float: left
  }
