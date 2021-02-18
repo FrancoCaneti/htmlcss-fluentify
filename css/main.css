@@ -136,6 +136,7 @@ h4{
 /*grigio*/
 
  .container2 {
+     position: relative;
     height: 100px;
     background-color: grey;
     text-align: center;
@@ -150,6 +151,29 @@ h4{
  /*Sezione Centrale*/
 
  .container3{
-     height: 350px;
-     background-color: chartreuse;
+     height: 500px;
+     background-color: cyan;
  }
+
+ .clearfix::after{
+     content'';
+     display: table;
+     clear: both;
+ }
+
+  .colonne .col {
+    float: left;
+    padding: 20 20px;
+    width: 33%;
+    height:500px;
+    
+    background-color: rgb(255, 255, 255);
+}
+
+.colonne .col:first-child{
+    background-color: rgb(30, 210, 30);
+}
+
+.colonne .col:last-child{
+    background-color: crimson;
+}
