@@ -12,7 +12,8 @@ body{
 
 h1,
 h2,
-h3
+h3,
+h4
 {
     font-weight: 500;
     width: 82%
@@ -146,6 +147,7 @@ h3
 
  .container2 h3{
      color:silver;
+     margin:5px;
  }
 
  /*Sezione Centrale*/
@@ -205,6 +207,7 @@ h3
 
  .w-110{
     width: 95%;
+    font-weight: bold;
  }
  
 hr:last-child{
@@ -217,21 +220,21 @@ hr:last-child{
 /*container4*/
 
 .box{
-   height: 350px;
-   width: 50%;
+   height: 300px;
+   width: 25%;
+   margin-left: 400px;
+   background-image: url(../img/mountain.svg);
+   background-repeat: no-repeat;
    float:left
 }
-img:last-child {
-    width: 126%;
-    height: 95%;
-    margin-top: 12px;
-}
+
+
 
 .box2{
     height:300px ;
-    width: 30%;
+    width: 25%;
+    text-align: left;
     margin-right: 20%;
-    background-color: coral;
     float: left;
     position: relative;
     top: 30px;
@@ -245,3 +248,9 @@ h3 {
     color:black;
     font-family: 'Roboto',sans-serif;
 }
+
+h6 {
+    color:blue
+}
+
+
