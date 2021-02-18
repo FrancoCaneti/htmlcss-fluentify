@@ -163,30 +163,43 @@ h4{
 
   .colonne .col {
     float: left;
-    width: 32%;
+    width: 20%;
     height:500px;
     margin: 0 10px;
+    text-align: center;
     
-    background-color: rgb(219, 230, 172);
 }
 
 .colonne .col:first-child{
-    background-color: rgb(30, 210, 30);
+    margin-left: 20%;
 }
 
 .colonne .col:last-child{
-    background-color: crimson;
+    
+    margin-right: 10%;
 }
 
 .flex{
-    max-width: 60%;
-    max-height: 40%;
-    text-align: center;
+    max-height: 35%;
+    text-align:center;
 }
 
  .green{
     margin-top: 30px;
     text-align: center;
-    
-    color: rgb(84, 241, 11);
+    padding: 10px;
+    color: greenyellow;
 }
+hr{
+    color: red;
+    background: red;
+    border: 0;
+    height: 1px;
+    margin: 1em 0 2em; 
+}
+ h4{
+     color:black
+ }
+
+ .w-60{
+    width: 60%;
