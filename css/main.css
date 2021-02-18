@@ -145,14 +145,14 @@ h4{
  }
 
  .container2 h3{
-     color:rgba(255, 255, 255, .5)
+     color:rgba(163, 157, 157, 0.274)
  }
 
  /*Sezione Centrale*/
 
  .container3{
      height: 500px;
-     background-color: cyan;
+     background-color: rgb(255, 255, 255);
  }
 
  .clearfix::after{
@@ -163,11 +163,11 @@ h4{
 
   .colonne .col {
     float: left;
-    padding: 20 20px;
-    width: 33%;
+    width: 32%;
     height:500px;
+    margin: 0 10px;
     
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(219, 230, 172);
 }
 
 .colonne .col:first-child{
@@ -176,4 +176,17 @@ h4{
 
 .colonne .col:last-child{
     background-color: crimson;
+}
+
+.flex{
+    max-width: 60%;
+    max-height: 40%;
+    text-align: center;
+}
+
+ .green{
+    margin-top: 30px;
+    text-align: center;
+    
+    color: rgb(84, 241, 11);
 }
