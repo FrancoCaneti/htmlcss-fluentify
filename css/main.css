@@ -150,10 +150,9 @@ h3
 
  /*Sezione Centrale*/
 
- .container3{
-     height: 500px;
-     background-color: rgb(255, 255, 255);
- }
+.container3{
+    height: 377px;
+}
 
  .clearfix::after{
      content'';
@@ -188,7 +187,7 @@ h3
     margin-top: 30px;
     text-align: center;
     padding: 10px;
-    color: greenyellow;
+    color: rgb(156, 231, 42);
 }
  hr{
     width: 15%;
@@ -208,3 +207,30 @@ h3
     width: 95%;
  }
  
+hr:last-child{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/*container4*/
+
+.box{
+   height: 350px;
+   width: 50%;
+   float:left
+}
+
+.box2{
+    height:350px ;
+    width: 50%;
+    background-color: cadetblue;
+    float: left;
+}
+
+img:last-child {
+    width: 126%;
+    height: 95%;
+    margin-top: 12px;
+}
