@@ -12,7 +12,8 @@ body{
 
 h1,
 h2,
-h3{
+h3
+h4{
     font-weight: 500;
     width: 82%
 }
@@ -20,6 +21,7 @@ h3{
 .container{
     width: 1200px;
     margin: 0 auto;
+    padding:10px
 }
  
 .clearfix::after{
@@ -132,10 +134,22 @@ h3{
 
 
 /*grigio*/
-.container2 h2  h3{
-    height:100px;
-    color: black;
-    background-color: grey;
-    text-align:center;
-}
 
+ .container2 {
+    height: 100px;
+    background-color: grey;
+    text-align: center;
+    padding:30px;
+    color:black
+ }
+
+ .container2 h3{
+     color:rgba(255, 255, 255, .5)
+ }
+
+ /*Sezione Centrale*/
+
+ .container3{
+     height: 350px;
+     background-color: chartreuse;
+ }
