@@ -164,7 +164,7 @@ h3
   .colonne .col {
     float: left;
     width: 20%;
-    height:500px;
+    height: 375px;px;
     margin: 0 10px;
     text-align: center;
     
@@ -180,7 +180,7 @@ h3
 }
 
 .flex{
-    max-height: 25%;
+    max-height: 33%;
     margin-top: 30px;
 }
 
@@ -190,7 +190,7 @@ h3
     padding: 10px;
     color: greenyellow;
 }
-hr{
+ hr{
     width: 15%;
     margin-left: 125px;
     margin-top: 10px;
@@ -206,3 +206,5 @@ hr{
 
  .w-110{
     width: 95%;
+ }
+ 
