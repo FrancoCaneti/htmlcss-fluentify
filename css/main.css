@@ -228,9 +228,20 @@ img:last-child {
 }
 
 .box2{
-    height:350px ;
-    width: 50%;
-    background-color: cadetblue;
+    height:300px ;
+    width: 30%;
+    margin-right: 20%;
+    background-color: coral;
     float: left;
+    position: relative;
+    top: 30px;
 }
 
+.box2 .h{
+    margin: 10px auto;
+}
+
+h3 {
+    color:black;
+    font-family: 'Roboto',sans-serif;
+}
