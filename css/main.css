@@ -13,7 +13,7 @@ body{
 h1,
 h2,
 h3
-h4{
+{
     font-weight: 500;
     width: 82%
 }
@@ -180,7 +180,7 @@ h4{
 }
 
 .flex{
-    max-height: 35%;
+    max-height: 25%;
     text-align:center;
 }
 
@@ -198,8 +198,10 @@ hr{
     margin: 1em 0 2em; 
 }
  h4{
-     color:black
+     color:#00000094;
+     font-size: 12px;
+     
  }
 
- .w-60{
-    width: 60%;
+ .w-110{
+    width: 95%;
