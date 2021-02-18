@@ -221,6 +221,11 @@ hr:last-child{
    width: 50%;
    float:left
 }
+img:last-child {
+    width: 126%;
+    height: 95%;
+    margin-top: 12px;
+}
 
 .box2{
     height:350px ;
@@ -229,8 +234,3 @@ hr:last-child{
     float: left;
 }
 
-img:last-child {
-    width: 126%;
-    height: 95%;
-    margin-top: 12px;
-}
